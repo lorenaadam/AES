@@ -7,7 +7,7 @@ public:
 
 	void KeyExpansion(); 
 	void AddRoundKey();
-	void ByteSub();
+	void SubBytes();
 	void ShiftRows();
 	void MixColumns();
 
